@@ -1,0 +1,6 @@
+{
+  "name": "AI Apocalypse Sentinel",
+  "description": "A futuristic command center to evaluate other AI systems, detect AI-generated scams, deepfakes, bias, hallucinations, and monitor emerging AI risks in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

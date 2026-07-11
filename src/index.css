@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", "Nunito", "Plus Jakarta Sans", sans-serif;
+  --font-display: "Fredoka", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #1e293b;
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
