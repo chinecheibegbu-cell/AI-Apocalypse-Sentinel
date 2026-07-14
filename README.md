@@ -97,6 +97,7 @@ https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel⁠�
 
 
 👥 Team
+
 Solo Project
 
 
@@ -105,4 +106,4 @@ Solo Project
 
 
 
-This project was created for the AI Apocalypse Hackathon and is intended for educational and demonstration purposes.
+This project was created for the Hoobit Hackathon and is intended for educational and demonstration purposes.
