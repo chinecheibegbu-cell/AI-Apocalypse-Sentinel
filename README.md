@@ -49,6 +49,7 @@ As AI becomes more powerful, so do AI-generated threats such as deepfakes, hallu
 
 
 
+
 🚀 Technologies Used
 
 
@@ -70,6 +71,9 @@ Vercel
 
 
 🎯 Why This Project?
+
+
+
 AI Apocalypse Sentinel addresses one of the world's fastest-growing challenges: ensuring AI remains safe, transparent, and trustworthy. By helping users detect AI-generated threats before they cause harm, the platform promotes responsible AI adoption and digital safety.
 
 
