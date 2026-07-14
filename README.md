@@ -113,11 +113,6 @@ Solo Project
 
   
 
-📄 License
-
-
-
-This project was created for the Hoobit Hackathon and is intended for educational and demonstration purposes.
 ## License
 
 This project was developed for the Hoobit AI Apocalypse Hackathon as an educational prototype.
