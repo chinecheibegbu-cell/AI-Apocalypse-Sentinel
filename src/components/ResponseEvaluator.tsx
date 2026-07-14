@@ -24,6 +24,7 @@ import {
 } from "lucide-react";
 import { EvaluationResult } from "../types";
 import { supabase } from "../supabase";
+import AIReasoningExplainer from "./AIReasoningExplainer";
 
 interface ResponseEvaluatorProps {
   onSpeak: (text: string) => void;
@@ -195,8 +196,30 @@ export default function ResponseEvaluator({ onSpeak }: ResponseEvaluatorProps) {
       }
       setResult(data);
 
-      // Save evaluation report to Supabase database
+      // Save evaluation report to Supabase database and localStorage fallback
       try {
+        // 1. Always save to local storage fallback
+        const localReport = {
+          id: `local-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+          user_id: "local-user",
+          prompt,
+          response,
+          hallucination_score: data.hallucinationScore,
+          bias_score: data.biasScore,
+          trust_score: data.trustScore,
+          created_at: new Date().toISOString()
+        };
+        try {
+          const existing = localStorage.getItem("ai_reports_fallback");
+          const localReports = existing ? JSON.parse(existing) : [];
+          localReports.push(localReport);
+          localStorage.setItem("ai_reports_fallback", JSON.stringify(localReports));
+          console.log("Successfully saved evaluation report to localStorage.");
+        } catch (storageErr) {
+          console.error("LocalStorage write failed:", storageErr);
+        }
+
+        // 2. Try Supabase
         const { data: authData } = await supabase.auth.getUser();
         const user_id = authData?.user?.id || null;
         const { error: insertError } = await supabase
@@ -296,8 +319,30 @@ export default function ResponseEvaluator({ onSpeak }: ResponseEvaluatorProps) {
         }
         setResult(simulatedResult);
 
-        // Save simulated evaluation report to Supabase database as well
+        // Save simulated evaluation report to Supabase database as well as localStorage
         try {
+          // 1. Always save to local storage fallback
+          const localReport = {
+            id: `local-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
+            user_id: "local-user",
+            prompt,
+            response,
+            hallucination_score: simulatedResult.hallucinationScore,
+            bias_score: simulatedResult.biasScore,
+            trust_score: simulatedResult.trustScore,
+            created_at: new Date().toISOString()
+          };
+          try {
+            const existing = localStorage.getItem("ai_reports_fallback");
+            const localReports = existing ? JSON.parse(existing) : [];
+            localReports.push(localReport);
+            localStorage.setItem("ai_reports_fallback", JSON.stringify(localReports));
+            console.log("Successfully saved simulated evaluation report to localStorage.");
+          } catch (storageErr) {
+            console.error("LocalStorage write failed (simulated):", storageErr);
+          }
+
+          // 2. Try Supabase
           const { data: authData } = await supabase.auth.getUser();
           const user_id = authData?.user?.id || null;
           const { error: insertError } = await supabase
@@ -777,6 +822,15 @@ export default function ResponseEvaluator({ onSpeak }: ResponseEvaluatorProps) {
               )}
             </div>
           </div>
+
+          {result && (
+            <AIReasoningExplainer
+              prompt={prompt || "General Evaluation Query"}
+              response={response}
+              result={result}
+              onSpeak={onSpeak}
+            />
+          )}
         </>
       )}
 
