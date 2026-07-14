@@ -88,9 +88,12 @@ AI Apocalypse Sentinel addresses one of the world's fastest-growing challenges: 
 
 [AI Apocalypse Sentinel Repository](https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel)
 
+
+
 ## 📸 Screenshot
 
-![AI Apocalypse Sentinel Dashboard]file_000000008a4471f49cb6cb1feca23ab3.png
+AI-Apocalypse-Sentinel
+/file_000000008a4471f49cb6cb1feca23ab3.png
 
 ## 👥 Team
 
