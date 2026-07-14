@@ -90,7 +90,7 @@ AI Apocalypse Sentinel addresses one of the world's fastest-growing challenges: 
 
 ## 📸 Screenshot
 
-![AI Apocalypse Sentinel Dashboard](images/dashboard.png)
+![AI Apocalypse Sentinel Dashboard]file_000000008a4471f49cb6cb1feca23ab3.png
 
 ## 👥 Team
 
