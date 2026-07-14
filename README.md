@@ -1,4 +1,4 @@
-🛡️ AI Apocalypse Sentinel
+## 🛡️ AI Apocalypse Sentinel
 The AI that watches AI:
 
 
@@ -7,7 +7,7 @@ AI Apocalypse Sentinel is an intelligent AI-powered defense platform designed to
 
 
 
-🌍 Overview:
+## 🌍 Overview:
 
 
 
@@ -15,7 +15,7 @@ As AI becomes more powerful, so do AI-generated threats such as deepfakes, hallu
 
 
 
-✨ Key Features
+## ✨ Key Features
 
 
 
@@ -50,7 +50,7 @@ As AI becomes more powerful, so do AI-generated threats such as deepfakes, hallu
 
 
 
-🚀 Technologies Used
+## 🚀 Technologies Used
 
 
 
@@ -70,7 +70,7 @@ Vercel
 
 
 
-🎯 Why This Project?
+## 🎯 Why This Project?
 
 
 
@@ -78,18 +78,19 @@ AI Apocalypse Sentinel addresses one of the world's fastest-growing challenges: 
 
 
 
-💻## Live Demo
+## 💻 Live Demo
 
 [Launch AI Apocalypse Sentinel](https://ai-apocalypse-sentinel.vercel.app/)
 
 
 
-📂## GitHub Repository
-https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel
+## 📁 GitHub Repository
+
+[AI Apocalypse Sentinel Repository](https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel)
 
 
 
-👥 Team
+## 👥 Team
 
 Solo Project
 
