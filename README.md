@@ -36,18 +36,35 @@ As AI becomes more powerful, so do AI-generated threats such as deepfakes, hallu
 🔍 AI Response Comparison
 
 📈 AI Risk Forecasting
+
 🌐 Interactive AI Apocalypse Command Center
+
 🗣️ Voice Assistant
+
 🌍 Multi-language Support
+
 📱 Responsive Design
+
 ♿ Accessibility Features
+
+
+
 🚀 Technologies Used
+
+
+
 Google AI Studio
+
 JavaScript
+
 HTML5
+
 CSS3
+
 Supabase
+
 GitHub
+
 Vercel
 
 
