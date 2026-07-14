@@ -78,21 +78,19 @@ AI Apocalypse Sentinel addresses one of the world's fastest-growing challenges: 
 
 
 
-💻 Live Demo
-Live Application:
+💻 ## Live Demo
 
 
 
-https://ai-apocalypse-sentinel.vercel.app/
+[Launch AI Apocalypse Sentinel](https://ai-apocalypse-sentinel.vercel.app/)
 
 
 
-📂 GitHub Repository
-Repository: 
+📂 ## GitHub Repository
 
 
 
-https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel⁠�
+https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel
 
 
 
@@ -102,8 +100,29 @@ Solo Project
 
 
 
+## Future Improvements
+
+
+
+- Real-time AI threat monitoring
+
+- Advanced deepfake detection
+
+- Browser extension
+
+- Mobile application
+
+- Community reporting system
+  
+- AI risk dashboard
+
+  
+
 📄 License
 
 
 
 This project was created for the Hoobit Hackathon and is intended for educational and demonstration purposes.
+## License
+
+This project was developed for the Hoobit AI Apocalypse Hackathon as an educational prototype.
