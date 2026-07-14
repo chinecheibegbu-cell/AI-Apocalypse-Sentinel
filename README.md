@@ -79,17 +79,11 @@ AI Apocalypse Sentinel addresses one of the world's fastest-growing challenges: 
 
 
 💻 ## Live Demo
-
-
-
 [Launch AI Apocalypse Sentinel](https://ai-apocalypse-sentinel.vercel.app/)
 
 
 
-📂 ## GitHub Repository
-
-
-
+📂## GitHub Repository
 https://github.com/chinecheibegbu-cell/AI-Apocalypse-Sentinel
 
 
